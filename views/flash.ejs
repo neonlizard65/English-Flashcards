@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Упражнения</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="number" id="number"></div>
+        <div class="content">
+            <div class="card" id="card" onclick="revealCard()"></div>
+            <div class="checkBox">
+                <label for="correctBox">Правильно ответили</label>
+                <input type="checkbox" name="correctBox" id="correctBox" />
+            </div>
+            <button id="nextBtn" class="button" onclick="nextCard()">
+                Следующая карта
+            </button>
+        </div>
+
+        <script src="js/flash.js"></script>
+    </body>
+</html>

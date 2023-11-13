@@ -1,0 +1,113 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.startBtn {
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(0, 80, 0);
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.startBtn:hover {
+    background-color: rgb(0, 50, 0);
+}
+
+.startBtn:active {
+    background-color: rgb(0, 85, 0);
+}
+
+.number {
+    color: white;
+    text-align: end;
+    margin: 10px 30px;
+    align-self: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+#correctBox {
+    margin: 10px;
+}
+
+label[for="correctBox"] {
+    color: white;
+}
+.checkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+#result {
+    color: white;
+}
+
+.button {
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 30px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid black 1px;
+}
+
+.button:hover {
+    background-color: rgb(180, 180, 180);
+}
